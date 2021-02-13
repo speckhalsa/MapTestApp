@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		AF3247D225CF293000583BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3247D125CF293000583BD2 /* AppDelegate.swift */; };
 		AF3247D425CF293000583BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3247D325CF293000583BD2 /* SceneDelegate.swift */; };
-		AF3247D625CF293000583BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3247D525CF293000583BD2 /* ViewController.swift */; };
 		AF3247D925CF293000583BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3247D725CF293000583BD2 /* Main.storyboard */; };
 		AF3247DB25CF293700583BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3247DA25CF293700583BD2 /* Assets.xcassets */; };
 		AF3247DE25CF293700583BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3247DC25CF293700583BD2 /* LaunchScreen.storyboard */; };
 		AF3247E925CF293700583BD2 /* MapTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3247E825CF293700583BD2 /* MapTestAppTests.swift */; };
 		AF3247F425CF293700583BD2 /* MapTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3247F325CF293700583BD2 /* MapTestAppUITests.swift */; };
+		AF32480D25CF2C0200583BD2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32480C25CF2C0200583BD2 /* MapViewController.swift */; };
+		AF32485925D70BBF00583BD2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32485825D70BBF00583BD2 /* LoginViewController.swift */; };
+		AF32486125D7383800583BD2 /* ListOfTrails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32486025D7383800583BD2 /* ListOfTrails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		AF3247CE25CF293000583BD2 /* MapTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3247D125CF293000583BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF3247D325CF293000583BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF3247D525CF293000583BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF3247D825CF293000583BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF3247DA25CF293700583BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF3247DD25CF293700583BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		AF3247EF25CF293700583BD2 /* MapTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3247F325CF293700583BD2 /* MapTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestAppUITests.swift; sourceTree = "<group>"; };
 		AF3247F525CF293700583BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF32480C25CF2C0200583BD2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AF32485825D70BBF00583BD2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF32486025D7383800583BD2 /* ListOfTrails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfTrails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				AF3247D125CF293000583BD2 /* AppDelegate.swift */,
 				AF3247D325CF293000583BD2 /* SceneDelegate.swift */,
-				AF3247D525CF293000583BD2 /* ViewController.swift */,
+				AF32485825D70BBF00583BD2 /* LoginViewController.swift */,
+				AF32480C25CF2C0200583BD2 /* MapViewController.swift */,
+				AF32486025D7383800583BD2 /* ListOfTrails.swift */,
 				AF3247D725CF293000583BD2 /* Main.storyboard */,
 				AF3247DA25CF293700583BD2 /* Assets.xcassets */,
 				AF3247DC25CF293700583BD2 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF3247D625CF293000583BD2 /* ViewController.swift in Sources */,
+				AF32485925D70BBF00583BD2 /* LoginViewController.swift in Sources */,
 				AF3247D225CF293000583BD2 /* AppDelegate.swift in Sources */,
+				AF32486125D7383800583BD2 /* ListOfTrails.swift in Sources */,
 				AF3247D425CF293000583BD2 /* SceneDelegate.swift in Sources */,
+				AF32480D25CF2C0200583BD2 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
